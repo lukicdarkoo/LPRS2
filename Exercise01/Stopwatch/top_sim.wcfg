@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/RA117-2013/LPRS2/Vjezba1/top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="top_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/top_tb/fpga_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_clk</obj_property>
+      <obj_property name="ObjectShortName">fpga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fpga_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_reset</obj_property>
+      <obj_property name="ObjectShortName">fpga_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_sw0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_sw0</obj_property>
+      <obj_property name="ObjectShortName">ui_sw0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_sw1" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ui_sw1</obj_property>
+      <obj_property name="ObjectShortName">ui_sw1</obj_property>
+      <obj_property name="label">ui_sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_sw2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_sw2</obj_property>
+      <obj_property name="ObjectShortName">ui_sw2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_sw3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_sw3</obj_property>
+      <obj_property name="ObjectShortName">ui_sw3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led0</obj_property>
+      <obj_property name="ObjectShortName">ui_led0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led1</obj_property>
+      <obj_property name="ObjectShortName">ui_led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led2</obj_property>
+      <obj_property name="ObjectShortName">ui_led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led3</obj_property>
+      <obj_property name="ObjectShortName">ui_led3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led4</obj_property>
+      <obj_property name="ObjectShortName">ui_led4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led5</obj_property>
+      <obj_property name="ObjectShortName">ui_led5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led6</obj_property>
+      <obj_property name="ObjectShortName">ui_led6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/ui_led7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ui_led7</obj_property>
+      <obj_property name="ObjectShortName">ui_led7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_counter_i/counter_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_r[25:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_r[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_gen_i/dff_out_r" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dff_out_r</obj_property>
+      <obj_property name="ObjectShortName">dff_out_r</obj_property>
+      <obj_property name="label">dff_out_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_gen_i/shift_rst_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_rst_s</obj_property>
+      <obj_property name="ObjectShortName">shift_rst_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_gen_i/locked_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">locked_s</obj_property>
+      <obj_property name="ObjectShortName">locked_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_counter_i/rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_gen_i/clk_div_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_div_s</obj_property>
+      <obj_property name="ObjectShortName">clk_div_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/clk_50mhz_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_50mhz_s</obj_property>
+      <obj_property name="ObjectShortName">clk_50mhz_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/rst_locked_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_locked_s</obj_property>
+      <obj_property name="ObjectShortName">rst_locked_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cnt_en_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_en_s</obj_property>
+      <obj_property name="ObjectShortName">cnt_en_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/cnt_rst_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_rst_s</obj_property>
+      <obj_property name="ObjectShortName">cnt_rst_s</obj_property>
+   </wvobject>
+</wave_config>

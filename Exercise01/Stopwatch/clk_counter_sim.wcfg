@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/LukicDarkoo/Desktop/RA117-2013/Vjezba1/clk_counter_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="clk_counter_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/clk_counter_tb/clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/cnt_en_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_en_i</obj_property>
+      <obj_property name="ObjectShortName">cnt_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/cnt_rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt_rst_i</obj_property>
+      <obj_property name="ObjectShortName">cnt_rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/one_sec_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">one_sec_o</obj_property>
+      <obj_property name="ObjectShortName">one_sec_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/clk_i_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i_period</obj_property>
+      <obj_property name="ObjectShortName">clk_i_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/clk_counter_tb/uut/counter_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_r[25:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_r[25:0]</obj_property>
+   </wvobject>
+</wave_config>
